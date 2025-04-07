@@ -37,8 +37,8 @@ int main(){
     FloatRect playerBound=spritePlayer.getLocalBounds();
     spritePlayer.setOrigin(playerBound.width/2,playerBound.height/2);
 
-    float pixelPerSecPlayerX=8;
-    float pixelPerSecPlayerY=8;
+    float pixelPerSecPlayerX=800/5;
+    float pixelPerSecPlayerY=800/5;
 
     spritePlayer.setPosition(window.getSize().x/2,window.getSize().y/2);
     
